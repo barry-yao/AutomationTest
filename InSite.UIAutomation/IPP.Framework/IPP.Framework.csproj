@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9F74C103-E353-4D2C-88DC-074CAE02E709}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IPP.Framework</RootNamespace>
+    <AssemblyName>IPP.Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>38d9c729</NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebDriver, Version=3.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.4.0\lib\net40\WebDriver.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.3.4.0\lib\net40\WebDriver.Support.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebDriver.Support">
+      <HintPath>..\packages\Selenium.Support.3.4.0\lib\net40\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Extensions\InSite9\IPPExtensions.cs" />
+    <Compile Include="Extensions\InSite9\WebDriverExtensions.cs" />
+    <Compile Include="Extensions\InSite9\WebElementExtensions.cs" />
+    <Compile Include="Extensions\InSite8\InSiteExtensions.cs" />
+    <Compile Include="Extensions\JavaScriptExecuter.cs" />
+    <Compile Include="Extensions\InSite8\WebDriverExtensions.cs" />
+    <Compile Include="Extensions\InSite8\WebElementExtensions.cs" />
+    <Compile Include="FrameworkComponents\DriverManager.cs" />
+    <Compile Include="FrameworkComponents\PageFactory.cs" />
+    <Compile Include="Helpers\Enums.cs" />
+    <Compile Include="Interfaces\INavigatablePage.cs" />
+    <Compile Include="Interfaces\IPageObject.cs" />
+    <Compile Include="Pages\InSite8\Customers\CustomerOverviewPage.cs" />
+    <Compile Include="Pages\InSite8\Customers\CustomersPage.cs" />
+    <Compile Include="Pages\InSite8\HomePage.cs" />
+    <Compile Include="Pages\InSite9\Admin\CustomersPage.cs" />
+    <Compile Include="Pages\InSite9\Admin\LearningCenterContentPage.cs" />
+    <Compile Include="Pages\InSite9\Admin\RolesPage.cs" />
+    <Compile Include="Pages\InSite9\Admin\ThemesPage.cs" />
+    <Compile Include="Pages\InSite9\Admin\UploadProcessingRulesPage.cs" />
+    <Compile Include="Pages\InSite9\Admin\UsersPage.cs" />
+    <Compile Include="Pages\InSite9\BasePage.cs" />
+    <Compile Include="Pages\InSite9\Jobs\JobPage.cs" />
+    <Compile Include="Pages\InSite9\Jobs\JobsPage.cs" />
+    <Compile Include="Pages\InSite9\LoginPage.cs" />
+    <Compile Include="Pages\InSite9\Search\SearchPage.cs" />
+    <Compile Include="Pages\InSite9\SiteComponents\CreateJobDialog.cs" />
+    <Compile Include="Pages\InSite9\SiteComponents\DeleteJobDialog.cs" />
+    <Compile Include="Pages\InSite9\SiteComponents\JobInfoPanel.cs" />
+    <Compile Include="Pages\InSite9\SiteComponents\LinkedWebTable.cs" />
+    <Compile Include="Pages\InSite9\SiteComponents\PageTableItem.cs" />
+    <Compile Include="Pages\InSite9\SiteComponents\WebTable.cs" />
+    <Compile Include="Pages\InSite8\LoginPage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pages\InSite8\SiteComponents\WebTable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InSite.Common\InSite.Common.csproj">
+      <Project>{ec453d2e-5837-4e8d-bc7d-19da993a6dbb}</Project>
+      <Name>InSite.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
