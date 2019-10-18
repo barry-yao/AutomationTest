@@ -1,1 +1,103 @@
-<mxfile host="www.draw.io" modified="2019-09-23T05:50:17.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36" etag="OUW0JIjeUn-xVzlbNn_X" version="11.3.0" type="github" pages="1"><diagram id="ukKSHU_QiyCths1NAFuW" name="Page-1">7Vrfc+ooFP5rfNSBhJD4qLZ3785OZzrTu+3uIxpUbqM4hFTtX79giCYhUVt/b+uDhsMBge/wnQMnDbc3WfwhyGz8wEMaNRwQLhruXcNx/MBR31qwTAUe8FPBSLAwFcGN4Im9UyMERpqwkMYFRcl5JNmsKBzw6ZQOZEFGhODzotqQR8V/nZERtQRPAxLZ0hcWynEqDTywkf+kbDTO/hkCUzMhmbIRxGMS8nlO5N433J7gXKZPk0WPRnrtsnVJ2/2oqV0PTNCp3KfBj07vJXh86feSpPv+u3P/F3tgTdPLG4kSM+Gfz+obR6rLbl+op5F+emFTDUhZDEELItDCXsurqO0xKdhC9X5H41fJZ7bG77eQ9UgiuRlGLJfZugueTEOqhw6V4nzMJH2akYGunStDU7KxnESmesiiqMcjLlZt3ZDQYDhQ8lgK/kpzNXgQ0P5Q1ZhpUyHponY94RolZd2UT6gUS6ViGmS4LjODNeX5xkxgpjMumogxT2Oao3XXG/TUgwHwA2A6Fpi/epVYKqU/+S+7StJYUtF8WzTnGvCmoCRqAuAdFR0KQ4/6Vei0se8SfBx0oF+Ex4UV8OAKePCp0EFH2mqobdc+P8zVyuzaas83u9V879r2mrc3mkrriQo1f/XgAIjrsUUtx0VbwO3MtgHrHBdYjwYhqgI2cPouPtIuReDqgMUnAtbd4iBrgV05R/cGgYXo6oD1LWCtdaXTsKNjRlUaRCSOWcpsREhbnFthtSZi+Y8qgJaXFf/N193pVQHr0jIrLZhMmyGnbcq6XRO0gIeNYNNWF/JNH6lgammoMLJ0OjS0AtoSaGrKPBEDujuSUDMfUbkrfLSNIAeyV4FxJhM0IpK9FYdbhbv5h0fO1ETqAjDklCwnnaVplA+MS/2UIwW/1E+6ClY/KyNcT/qAqA1YhpkRQ8k81XaURcsTNGbvpL9S0CYw04NcDdvrNrw7JSERG0214Sob0JbS1duaqfNNx1RMWBjq9t2I9GnUJYPX0YpecsQwXH22EYM5fZmRNNbQ5G2vflPWsghoOcgrEolzmOlkKnw4jOlJ4AyumGa8HMmArfxyAS7B31xyOJfY5/mvwyXBDi5BqO0X0MluPz5rO8vKBqejlvY5qAUhp0AuLQD8XQSjS+Vo5EZYB32zzuGsY188ZWfW/z/rtHexjt8uHYWuPYKBdkB6Cp6B6Ng84wWlQxRCt3CI8r4p6HAKcr8wBUFQbUFrDnIDH91WqAPt2/KqXMbf/WQqE6UHkdrt6td1+kzaeuqXTPS92LQfzwqJjmTVQ5bpQJa5XH+mw8OlrXfxTAfc/3Lc35bpwBWZjt1JxVtNcnjB1SUUoX0ZfoJI4EOXGUf0zxnH7L7lvKiHRvBILhqVieLcPtrm9K9zOQFrrrc2PhoE7mH2cgavbOdQtntlnHpljPbyyjVeWifCMCp5anyDntrf550E/6ye2r6t/txLCVV56w+8/3PkFOdZ/LV1rr8Cf32WG8KL+Wt/X39dcxN8Hn+Ny0dq95P+GpfpIjizv7bD+C/kr3fd6zmB6xb3/+W8typu3iNN1Tcv47r3/wE=</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2019-10-18T02:11:59.639Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="x3ZKYcds1MbSkRX7JPYe" version="12.1.3" type="github" pages="1">
+  <diagram id="ukKSHU_QiyCths1NAFuW" name="Page-1">
+    <mxGraphModel dx="782" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-1" value="HVD&lt;br&gt;Win10&lt;br&gt;10.140.65.50&lt;br&gt;Citrix Desktop&lt;br&gt;jvdiCauto1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="20" y="100" width="120" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-2" value="TC&lt;br&gt;Win IoT&lt;br&gt;tester-vx-win10-real-005" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="170" y="310" width="160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-4" value="HVD&lt;br&gt;Win10&lt;br&gt;10.140.65.49&lt;br&gt;VMware Desktop&lt;br&gt;jvdiVauto1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="275" y="100" width="120" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-5" value="HVD&lt;br&gt;Win Server 2016&lt;br&gt;10.140.64.234&lt;br&gt;VMware App&lt;br&gt;jvdiVauto2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="405" y="100" width="120" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-6" value="HVD&lt;br&gt;Win Server 2016&lt;br&gt;10.140.64.233&lt;br&gt;Citrix App&lt;br&gt;jvdiCauto3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="145" y="100" width="120" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-7" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.429;exitY=-0.056;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="FACW8PWbCuuBzjAEKiMi-2" target="FACW8PWbCuuBzjAEKiMi-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="420" as="sourcePoint"/>
+            <mxPoint x="70" y="370" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-20" value="Citrix" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="FACW8PWbCuuBzjAEKiMi-7" vertex="1" connectable="0">
+          <mxGeometry x="0.2455" y="2" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-8" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="FACW8PWbCuuBzjAEKiMi-2" target="FACW8PWbCuuBzjAEKiMi-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="420" as="sourcePoint"/>
+            <mxPoint x="70" y="370" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-21" value="Citrix" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="FACW8PWbCuuBzjAEKiMi-8" vertex="1" connectable="0">
+          <mxGeometry x="0.4497" y="-1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-9" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.442;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="FACW8PWbCuuBzjAEKiMi-2" target="FACW8PWbCuuBzjAEKiMi-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="420" as="sourcePoint"/>
+            <mxPoint x="70" y="370" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-22" value="VMware" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="FACW8PWbCuuBzjAEKiMi-9" vertex="1" connectable="0">
+          <mxGeometry x="0.4795" y="1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-10" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.414;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.558;exitY=-0.044;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="FACW8PWbCuuBzjAEKiMi-2" target="FACW8PWbCuuBzjAEKiMi-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="420" as="sourcePoint"/>
+            <mxPoint x="70" y="370" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-23" value="VMware" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="FACW8PWbCuuBzjAEKiMi-10" vertex="1" connectable="0">
+          <mxGeometry x="0.3874" relative="1" as="geometry">
+            <mxPoint y="1" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-14" value="TC&lt;br&gt;Ubuntu 14.04 32bit&lt;br&gt;&amp;nbsp;tester-vx-ubuntu-real-004" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="560" y="310" width="160" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-15" value="HVD&lt;br&gt;Win7&lt;br&gt;10.140.65.69&lt;br&gt;Citrix Desktop&lt;br&gt;auto1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="580" y="100" width="120" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-16" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="FACW8PWbCuuBzjAEKiMi-14" target="FACW8PWbCuuBzjAEKiMi-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="420" as="sourcePoint"/>
+            <mxPoint x="460" y="370" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-24" value="Citrix" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="FACW8PWbCuuBzjAEKiMi-16" vertex="1" connectable="0">
+          <mxGeometry x="0.3083" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-17" value="TC&lt;br&gt;Ubuntu 16.04 64bit&lt;br&gt;&amp;nbsp;&amp;nbsp;tester-jvdi64-ubuntu-real-006" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="770" y="310" width="170" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-18" value="HVD&lt;br&gt;Win10&lt;br&gt;10.140.65.34&lt;br&gt;Citrix Desktop&lt;br&gt;jvdiCauto2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="795" y="100" width="120" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-19" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="FACW8PWbCuuBzjAEKiMi-17" target="FACW8PWbCuuBzjAEKiMi-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="430" as="sourcePoint"/>
+            <mxPoint x="670" y="380" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FACW8PWbCuuBzjAEKiMi-25" value="Citrix" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" parent="FACW8PWbCuuBzjAEKiMi-19" vertex="1" connectable="0">
+          <mxGeometry x="0.2833" y="1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
